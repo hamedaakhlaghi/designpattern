@@ -21,6 +21,7 @@
 		AF3BAC2E226B06E300AE7D2E /* WifiProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BAC2D226B06E300AE7D2E /* WifiProjector.swift */; };
 		AF3BAC30226B070200AE7D2E /* BluetoothProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BAC2F226B070200AE7D2E /* BluetoothProjector.swift */; };
 		AF3BAC32226B079D00AE7D2E /* ClientCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BAC31226B079D00AE7D2E /* ClientCode.swift */; };
+		AF3BAC34226B183B00AE7D2E /* FactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3BAC33226B183B00AE7D2E /* FactoryTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		AF3BAC2D226B06E300AE7D2E /* WifiProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiProjector.swift; sourceTree = "<group>"; };
 		AF3BAC2F226B070200AE7D2E /* BluetoothProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothProjector.swift; sourceTree = "<group>"; };
 		AF3BAC31226B079D00AE7D2E /* ClientCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCode.swift; sourceTree = "<group>"; };
+		AF3BAC33226B183B00AE7D2E /* FactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				AF3BAC0B226AFAB200AE7D2E /* DesignPatternTests.swift */,
 				AF3BAC0D226AFAB200AE7D2E /* Info.plist */,
+				AF3BAC33226B183B00AE7D2E /* FactoryTest.swift */,
 			);
 			path = DesignPatternTests;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3BAC34226B183B00AE7D2E /* FactoryTest.swift in Sources */,
 				AF3BAC0C226AFAB200AE7D2E /* DesignPatternTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tosan.ir.DesignPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tosan.ir.DesignPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
